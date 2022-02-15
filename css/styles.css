@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  background: #efefef;
 }
 
 img {
@@ -27,7 +28,7 @@ h2 {
 /* header */
 
 header {
-  background: #efefef;
+  background: #ffffff;
 }
 
 header .container {
