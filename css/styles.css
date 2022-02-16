@@ -2,7 +2,6 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -28,7 +27,7 @@ h2 {
 /* header */
 
 header {
-  background: black;
+  background: #000000;
 }
 
 header .container {
@@ -43,7 +42,7 @@ header .container div + div {
 
 header h1 {
   font-size: 24px;
-  color:white;
+  color: #ffffff;
 }
 
 header ul {
@@ -64,7 +63,8 @@ header .icon {
 /* main */
 
 main{
-  background: white;
+  background: #ffffff;
+  display: flex;
 }
 
 main h1 {
@@ -94,5 +94,5 @@ footer {
   padding: 60px 0;
   text-align: center;
   color: #aaa;
-  background: black;
+  background: #000000;
 }
