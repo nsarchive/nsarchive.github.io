@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background: #efefef;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -21,14 +21,14 @@ h2 {
 }
 
 .container {
-  width: 400px;
+  width: 250px;
   margin: 0 auto;
 }
 
 /* header */
 
 header {
-  background: #ffffff;
+  background: black;
 }
 
 header .container {
@@ -43,6 +43,7 @@ header .container div + div {
 
 header h1 {
   font-size: 24px;
+  color:white;
 }
 
 header ul {
@@ -61,6 +62,10 @@ header .icon {
 }
 
 /* main */
+
+main{
+  background: white;
+}
 
 main h1 {
   font-size: 24px;
@@ -85,7 +90,9 @@ main section + section {
 /* footer */
 
 footer {
+  margin-top: 60px;
   padding: 60px 0;
   text-align: center;
   color: #aaa;
+  background: black;
 }
